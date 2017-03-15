@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Animal Tournament</string>
+    <string name="action_settings">Settings</string>
+    <string name="cmpviewdes">cmpViewDes</string>
+    <string name="elephant">Elephant</string>
+    <string name="cat">Cat</string>
+    <string name="mouse">Mouse</string>
+    <string name="choose_your_animal">Choose your animal!</string>
+    <string name="computer_s_choice">Computer\'s choice</string>
+    <string name="scores">Scores</string>
+</resources>
