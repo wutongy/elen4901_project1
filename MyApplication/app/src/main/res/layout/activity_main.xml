@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/scores"
-            android:layout_marginBottom="8dp"
+
             android:layout_marginTop="8dp"
             android:textAllCaps="true"
             android:textSize="20sp"
@@ -60,7 +60,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/computer_s_choice"
                 android:textColor="@color/text_color"/>
             <TextView
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="16dp"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/choose_your_animal"
                 android:textColor="@color/text_color" />
             <ImageButton
@@ -118,16 +118,35 @@
                 android:background="@drawable/button_selector"
                 android:visibility="invisible"
                 />
+            <ImageView
+                android:id="@+id/animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/btnCat"
+                android:layout_below="@id/cmpShow"
+                android:layout_marginLeft="16dp"
+                android:contentDescription="@string/cmpviewdes"
+                android:background="@drawable/button_selector"
+                android:src="@drawable/animation_list"
+                />
         </RelativeLayout>
         <TextView
             android:id="@+id/result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Result"
-            android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"
             android:textAllCaps="true"
             android:textSize="20sp"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            />
     </LinearLayout>
 </ScrollView>
