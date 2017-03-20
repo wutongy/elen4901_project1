@@ -66,8 +66,8 @@ public class MainActivity extends Activity {
         s_Btn.setOnClickListener(myOnClickListener);
 
         //declare the audio resource to these two MediaPlayer objects
-        mp_background = MediaPlayer.create(this, R.raw.main);
-        mp_button = MediaPlayer.create(this, R.raw.blaster);
+        mp_background = MediaPlayer.create(this, R.raw.main); //using song: "Malt Shop Bop"
+        mp_button = MediaPlayer.create(this, R.raw.positive);
 
         //play background music here
         mp_background.start();
